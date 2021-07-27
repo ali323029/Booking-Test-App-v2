@@ -25,7 +25,7 @@ class SignUpController: UIViewController {
     
     
     func desginSignUpView(){
-        var designableView: DesignableView = DesignableView()
+        let designableView: DesignableView = DesignableView()
         designableView.customTextView(uiTextField: email_textView)
         designableView.customTextView(uiTextField: password_textView)
     }

@@ -372,13 +372,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="XXJ-yb-AkT">
-                                <rect key="frame" x="0.0" y="88" width="370" height="200"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="200"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h7s-DG-O5U">
-                                        <rect key="frame" x="0.0" y="0.0" width="370" height="200"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
                                         <subviews>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="6pE-qe-XxF">
-                                                <rect key="frame" x="0.0" y="0.0" width="370" height="200"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="tintColor" red="0.94509803920000002" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="xjg-83-THU">
@@ -438,16 +438,16 @@
                                 </constraints>
                             </stackView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OBe-Pw-RJL">
-                                <rect key="frame" x="0.0" y="308" width="370" height="442"/>
+                                <rect key="frame" x="0.0" y="264" width="414" height="535"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4kh-Cl-dnh">
-                                        <rect key="frame" x="0.0" y="0.0" width="370" height="350"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="350"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="4v6-iw-3eI">
-                                                <rect key="frame" x="10" y="5" width="350" height="80"/>
+                                                <rect key="frame" x="10" y="5" width="394" height="80"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rka-UW-CNu">
-                                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="91" height="80"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Facial" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vhM-xr-Mak">
                                                                 <rect key="frame" x="5" y="55" width="70" height="20"/>
@@ -486,7 +486,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xvh-KV-HKP">
-                                                        <rect key="frame" x="90" y="0.0" width="80" height="80"/>
+                                                        <rect key="frame" x="101" y="0.0" width="91" height="80"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Eyebrow" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Hz-Ia-ngi">
                                                                 <rect key="frame" x="5" y="55" width="70" height="20"/>
@@ -525,7 +525,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T4d-c8-7l1">
-                                                        <rect key="frame" x="180" y="0.0" width="80" height="80"/>
+                                                        <rect key="frame" x="202" y="0.0" width="91" height="80"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Eyelashes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vs4-8O-5ho">
                                                                 <rect key="frame" x="5" y="55" width="70" height="20"/>
@@ -564,7 +564,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1oN-aV-Ec3">
-                                                        <rect key="frame" x="270" y="0.0" width="80" height="80"/>
+                                                        <rect key="frame" x="303" y="0.0" width="91" height="80"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Eyeliner" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DhS-Rd-Xdw">
                                                                 <rect key="frame" x="5" y="55" width="70" height="20"/>
@@ -605,10 +605,10 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="nta-ZE-ltw">
-                                                <rect key="frame" x="10" y="95" width="350" height="80"/>
+                                                <rect key="frame" x="10" y="95" width="394" height="80"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Vz-lF-uFW">
-                                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="91" height="80"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dermaplaning" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3fk-Sq-kYC">
                                                                 <rect key="frame" x="5" y="55" width="70" height="20"/>
@@ -647,7 +647,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vnt-lf-Hni">
-                                                        <rect key="frame" x="90" y="0.0" width="80" height="80"/>
+                                                        <rect key="frame" x="101" y="0.0" width="91" height="80"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lips" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S8C-cr-yzX">
                                                                 <rect key="frame" x="5" y="55" width="70" height="20"/>
@@ -686,7 +686,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PWW-i1-ZnR">
-                                                        <rect key="frame" x="180" y="0.0" width="80" height="80"/>
+                                                        <rect key="frame" x="202" y="0.0" width="91" height="80"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Waxing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8wU-tz-qvk">
                                                                 <rect key="frame" x="5" y="55" width="70" height="20"/>
@@ -725,7 +725,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o9i-zB-4Kp">
-                                                        <rect key="frame" x="270" y="0.0" width="80" height="80"/>
+                                                        <rect key="frame" x="303" y="0.0" width="91" height="80"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HairCut" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Djl-K2-2PD">
                                                                 <rect key="frame" x="5" y="55" width="70" height="20"/>
@@ -766,10 +766,10 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="9n6-CN-DLQ">
-                                                <rect key="frame" x="10" y="185" width="350" height="80"/>
+                                                <rect key="frame" x="10" y="185" width="394" height="80"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5b4-6F-gzp">
-                                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="91" height="80"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Makeup" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFp-Q4-rGI">
                                                                 <rect key="frame" x="5" y="55" width="70" height="20"/>
@@ -808,7 +808,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TAt-kJ-63a">
-                                                        <rect key="frame" x="90" y="0.0" width="80" height="80"/>
+                                                        <rect key="frame" x="101" y="0.0" width="91" height="80"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HairExtension" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZB4-96-9oO">
                                                                 <rect key="frame" x="5" y="55" width="70" height="20"/>
@@ -847,7 +847,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XYW-er-xI6">
-                                                        <rect key="frame" x="180" y="0.0" width="80" height="80"/>
+                                                        <rect key="frame" x="202" y="0.0" width="91" height="80"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Massage" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YUY-gX-2KI">
                                                                 <rect key="frame" x="5" y="55" width="70" height="20"/>
@@ -886,7 +886,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cj6-zl-t84">
-                                                        <rect key="frame" x="270" y="0.0" width="80" height="80"/>
+                                                        <rect key="frame" x="303" y="0.0" width="91" height="80"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="More" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4v1-Ge-rUZ">
                                                                 <rect key="frame" x="5" y="55" width="70" height="20"/>
@@ -1077,7 +1077,6 @@
                         <color key="selectedImageTintColor" name="buttonColor"/>
                     </tabBar>
                     <connections>
-                        <segue destination="c85-1q-2tP" kind="relationship" relationship="viewControllers" id="XYB-d5-mbK"/>
                         <segue destination="qhP-AY-Dwq" kind="relationship" relationship="viewControllers" id="Uw8-eg-JMQ"/>
                         <segue destination="ofe-p6-IiW" kind="relationship" relationship="viewControllers" id="Q5W-dO-bRj"/>
                         <segue destination="g20-uO-ydd" kind="relationship" relationship="viewControllers" id="tBV-Dd-w9Z"/>
