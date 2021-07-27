@@ -23,6 +23,8 @@
 		9361716A2678C85600741DCA /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936171692678C85600741DCA /* LoginController.swift */; };
 		9361716C2678D34000741DCA /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9361716B2678D34000741DCA /* SignUpController.swift */; };
 		93681A81267A1F9D00A45624 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93681A80267A1F9D00A45624 /* HomeController.swift */; };
+		9369F03826B02DEB00CFB1E0 /* HomeSliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9369F03726B02DEB00CFB1E0 /* HomeSliderCollectionViewCell.swift */; };
+		9369F03A26B02E4F00CFB1E0 /* HomeServicesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9369F03926B02E4F00CFB1E0 /* HomeServicesCollectionViewCell.swift */; };
 		DA46D7C002AA5DFAE0555914 /* Pods_Booking_Test_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4983D5B25737B4BCA7EDAC07 /* Pods_Booking_Test_App.framework */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +75,8 @@
 		936171692678C85600741DCA /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		9361716B2678D34000741DCA /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		93681A80267A1F9D00A45624 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		9369F03726B02DEB00CFB1E0 /* HomeSliderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSliderCollectionViewCell.swift; sourceTree = "<group>"; };
+		9369F03926B02E4F00CFB1E0 /* HomeServicesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeServicesCollectionViewCell.swift; sourceTree = "<group>"; };
 		C27AFD603932FA2133E2CA0D /* Pods_Booking_Test_App_Booking_Test_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Booking_Test_App_Booking_Test_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7E696C24E5DFEECE9E3D37 /* Pods-Booking Test App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Booking Test App.debug.xcconfig"; path = "Target Support Files/Pods-Booking Test App/Pods-Booking Test App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -187,6 +191,8 @@
 				9361716B2678D34000741DCA /* SignUpController.swift */,
 				93681A80267A1F9D00A45624 /* HomeController.swift */,
 				93486512267FDB5B006804A7 /* MyCollectionView.swift */,
+				9369F03726B02DEB00CFB1E0 /* HomeSliderCollectionViewCell.swift */,
+				9369F03926B02E4F00CFB1E0 /* HomeServicesCollectionViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -462,6 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				936171682678BA5300741DCA /* DesignableView.swift in Sources */,
+				9369F03826B02DEB00CFB1E0 /* HomeSliderCollectionViewCell.swift in Sources */,
 				93188A0326769EB800E74125 /* WelcomeViewController.swift in Sources */,
 				93681A81267A1F9D00A45624 /* HomeController.swift in Sources */,
 				931889FF26769EB800E74125 /* AppDelegate.swift in Sources */,
@@ -469,6 +476,7 @@
 				9361716A2678C85600741DCA /* LoginController.swift in Sources */,
 				93486513267FDB5B006804A7 /* MyCollectionView.swift in Sources */,
 				9361716C2678D34000741DCA /* SignUpController.swift in Sources */,
+				9369F03A26B02E4F00CFB1E0 /* HomeServicesCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
